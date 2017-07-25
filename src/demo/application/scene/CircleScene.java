@@ -1,22 +1,16 @@
-package application.scene;
+package demo.application.scene;
 
-import application.Main;
-import javafx.event.EventHandler;
-import javafx.scene.Group;
-import javafx.scene.Parent;
+import demo.application.Main;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
-import utils.ConsoleInput;
-import utils.RandomUtils;
-
-import java.util.Random;
+import demo.application.utils.ConsoleInput;
+import demo.application.utils.RandomUtils;
 
 public class CircleScene {
     private static final float PADDING = 100;

@@ -1,9 +1,8 @@
-package application;
+package demo.application;
 
-import application.scene.CircleScene;
+import demo.application.scene.CircleScene;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import utils.ConsoleInput;
 
 public class Main extends Application {
     public static final float WIDTH = 900;

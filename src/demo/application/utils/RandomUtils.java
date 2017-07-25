@@ -1,4 +1,4 @@
-package utils;
+package demo.application.utils;
 
 import java.util.Random;
 
